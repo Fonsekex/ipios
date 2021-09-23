@@ -14,7 +14,70 @@
   </ion-header>
 
   <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
+    <ion-button (click)="nombres()" expand="block" fill="clear" shape="round">
+      datos
+    </ion-button>
+    <p>
+      Ip Privada ---  {{ipPrivada}}
+    </p>
+    <p>
+      Ip Publica ---  {{ipPublica}}
+    </p>
+    <p>
+      proxxy:
+      {{proxxy}}
+    </p>
+    <p>
+      imei:
+      {{imei}}
+    </p>
+    <p>
+      iccid:
+      {{iccid}}
+    </p>
+    <p>
+      imsi:
+      {{imsi}}
+    </p>
+    <p>
+      mac:
+      {{mac}}
+    </p>
+    <p>
+      Model:
+      {{model}}
+    </p>
+    <p>
+      PLataforma:
+      {{platform}}
+    </p>
+    <p>
+      UUID
+      {{Uuid}}
+    </p>
+    <p>
+      WifiInfo:
+      {{ auxwifiInfo }}
+    </p>
+    <p>
+      coordenadas:
+      {{latitude}}<br>
+      {{longitude}}
+    </p>
+    <p>
+      Dirección:
+      {{address}}
+    </p>
+    <p>
+      IANA:
+      {{ iana }}
+    </p>
+    <p>
+      zona horaria:
+      {{ timezone }}
+    </p><p>
+      UTC:
+      {{ UTC }}
+    </p>
   </div>
 </ion-content>
